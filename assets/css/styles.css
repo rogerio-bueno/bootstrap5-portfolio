@@ -1,0 +1,9 @@
+body {
+    background-color: var(--bg-color);
+    font-family: "Fira Code", monospace;
+}
+
+.navbar-nav span {
+    color: var(--navbar-span);
+}
+
