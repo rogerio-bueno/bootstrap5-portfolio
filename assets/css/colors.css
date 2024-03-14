@@ -1,4 +1,10 @@
-* {
+:root {
     --bg-color: #282C33;
-    --navbar-span: #C778DD;
+    --color-text-primary: #FFF;
+    --color-text-secondary: #ABB2BF;
+    --highlight-span: #C778DD;
+}
+
+.highlight-purple {
+    color: var(--highlight-span);
 }

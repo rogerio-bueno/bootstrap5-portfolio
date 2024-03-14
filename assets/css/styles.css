@@ -3,7 +3,22 @@ body {
     font-family: "Fira Code", monospace;
 }
 
-.navbar-nav span {
-    color: var(--navbar-span);
+.navbar {
+    padding: 1rem 0 0 0;  
+}
+
+.navbar-brand {
+    font-weight: 500;
+}
+
+figcaption {
+    color: var(--color-text-secondary);
+    font-weight: 500;
+    padding: 8px;
+}
+
+figcaption span{
+    color: var(--color-text-primary);
+    font-weight: 600;
 }
 
