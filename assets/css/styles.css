@@ -11,6 +11,10 @@ body {
     font-weight: 500;
 }
 
+div span {
+    color: var(--color-text-secondary);
+}
+
 figcaption {
     color: var(--color-text-secondary);
     font-weight: 500;
