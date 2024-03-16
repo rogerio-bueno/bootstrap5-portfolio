@@ -11,7 +11,7 @@ body {
     font-weight: 500;
 }
 
-div span {
+.span-text-gray {
     color: var(--color-text-secondary);
 }
 
