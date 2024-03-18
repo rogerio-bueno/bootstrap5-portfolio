@@ -87,3 +87,7 @@ figcaption span{
     border-bottom: 1px solid var(--color-text-primary);
 }
 
+/*Sobre mim*/
+.lh-base {
+    line-height: 26px;
+}
