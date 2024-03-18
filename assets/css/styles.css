@@ -1,4 +1,5 @@
 body {
+
     background-color: var(--bg-color);
     font-family: "Fira Code", monospace;
 }
@@ -13,7 +14,7 @@ body {
 }
 
 /*Apresentação home*/
-.span-text-gray {
+.text-gray {
     color: var(--color-text-secondary);
 }
 
@@ -90,4 +91,19 @@ figcaption span{
 /*Sobre mim*/
 .lh-base {
     line-height: 26px;
+}
+
+/*Contato*/
+.contact__text {
+    color: var(--color-text-secondary);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.contact__title {
+    font-size: 1rem;
+}
+
+.contact__link {
+    font-weight: 400;
 }
