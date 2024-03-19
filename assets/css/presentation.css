@@ -12,3 +12,13 @@
     color: var(--color-text-primary);
     font-weight: 600;
 }
+
+.quote {
+    border: 1px solid var(--border-secondary);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: normal;
+
+    display: inline-flex;
+    padding: 32px;
+}

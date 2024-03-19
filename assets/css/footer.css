@@ -1,3 +1,4 @@
 footer {
+    color: var(--color-text-secondary);
     border-top: 1px solid var(--border-secondary);
 }
