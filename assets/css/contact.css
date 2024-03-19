@@ -1,0 +1,13 @@
+.contact__text {
+    color: var(--color-text-secondary);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.contact__title {
+    font-size: 1rem;
+}
+
+.contact__link {
+    font-weight: 400;
+}

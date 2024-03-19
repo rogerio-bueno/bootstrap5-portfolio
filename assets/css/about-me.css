@@ -1,0 +1,7 @@
+.about__text {
+    color: var(--color-text-secondary);
+}
+
+.lh-base {
+    line-height: 26px;
+}

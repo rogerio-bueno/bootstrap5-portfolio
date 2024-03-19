@@ -1,0 +1,14 @@
+.info__text {
+    color: var(--color-text-secondary);
+}
+
+.info__img__caption {
+    color: var(--color-text-secondary);
+    font-weight: 500;
+    padding: 8px;
+}
+
+.info__img__caption strong {
+    color: var(--color-text-primary);
+    font-weight: 600;
+}

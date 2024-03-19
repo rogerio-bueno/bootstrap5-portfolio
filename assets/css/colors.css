@@ -8,8 +8,3 @@
     --border-primary: #C778DD;
     --border-secondary: #ABB2BF;
 }
-
-/*Cor destaque*/
-.highlight-purple {
-    color: var(--highlight-span);
-}
