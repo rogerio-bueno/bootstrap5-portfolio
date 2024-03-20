@@ -1,0 +1,31 @@
+.contact__title {
+    color: var(--color-text-primary);
+}
+
+.contact__text {
+    color: var(--color-text-secondary);
+    font-weight: 500;
+    line-height: 26px; 
+
+}
+
+.card {
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-secondary);
+}
+
+.card__title {
+    color: var(--color-text-primary);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.contact__link {
+    color: var(--color-text-secondary);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.contact__link:hover {
+    color: var(--color-text-primary );
+}
