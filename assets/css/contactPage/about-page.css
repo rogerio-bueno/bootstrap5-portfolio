@@ -2,6 +2,11 @@
     color: var(--color-text-secondary);
 }
 
+.info__caption {
+    font-weight: 500;
+    padding: 8px;
+}
+
 .card {
     color: var(--color-text-secondary);
     background-color: var(--bg-color);
