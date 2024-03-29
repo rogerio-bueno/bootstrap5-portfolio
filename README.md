@@ -1,3 +1,7 @@
+<figure>
+  <img src="https://github.com/rogerio-bueno/portfolio/blob/main/assets/image/portfolio-completo.png">
+</figure>
+
 # Portfolio utilizando Bootstrap e Metodologia Ágil
 
 Este é o meu portfólio desenvolvido durante o primeiro semestre da faculdade de Análise e Desenvolvimento de Sistemas. Utilizei Bootstrap 5 como framework front-end, e os padrões de acessibilidade e responsividade. Além disso, adotei a metodologia ágil para o desenvolvimento do projeto, garantindo uma abordagem iterativa.
