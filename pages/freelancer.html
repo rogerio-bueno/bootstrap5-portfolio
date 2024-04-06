@@ -79,7 +79,7 @@
                 <p class="text-gray py-3">Descubra os benefícios de trabalhar comigo e transforme sua visão em realidade
                     digital com qualidade, compromisso e preços justos.
                 </p>
-                <a href="../pages/projetos.html" class="btn d-flex align-items-center my-4 p-0">
+                <a href="../pages/projetos.html" class="btn text-white d-flex align-items-center my-4 p-0">
                     Confira aqui os meus projetos
                     <span class="material-symbols-outlined ml-1">east</span>
                 </a>
@@ -178,22 +178,16 @@
                 <div class="col-sm-6 ">
                     <div class="d-flex">
                         <div class="border rounded ml-auto">
-                            <div class="p-2 p-sm-4">
-                                <h5 class="card__title">Me mande uma mensagem aqui</h5>
-
-                                <a class="btn d-flex align-items-center card__link"
-                                    href="https://www.linkedin.com/in/rogeriobuenos/" target="_blank"
-                                    rel="noopener noreferrer">
-                                    <img src="../assets/image/linkedin-ico.svg" alt="Icone da plataforma linkedin">
-                                    /rogeriobuenos
-                                </a>
-
-                                <a class="btn d-flex align-items-center card__link"
-                                    href="mailto:rogeriobuenodasilva18@gmail.com" target="_blank"
-                                    rel="noopener noreferrer">
-                                    <img src="../assets/image/email-ico.svg" alt="Icone de envelope de cartas">
-                                    rogeriobuenodasilva18@gmail.com
-                                </a>
+                            <div class="ml-sm-auto p-5">
+                                <h5 class="text-white">Me mande uma mensagem aqui</h5>
+                                <!-- Botão para acionar modal contato -->
+                                <button type="button" class="btn mt-3 d-flex align-items-center " data-toggle="modal"
+                                    data-target="#ModalLongoExemplo">
+                                    Fale comigo
+                                    <span class="ml-1 material-symbols-outlined">
+                                        arrow_outward
+                                    </span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -227,5 +221,25 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 </body>
+<!-- Modal contato-->
+<div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="TituloModalLongoExemplo">Deixe uma mensagem</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLScNqhnqy-2NuZFfBUU9KCfBbYwS2AdFGM0BSptkKvvnbypcoA/viewform?embedded=true"
+                    class="container-fluid" height="932" frameborder="0" marginheight="0"
+                    marginwidth="0">Carregando…</iframe>
+            </div>
+        </div>
+    </div>
+</div>
 
 </html>
