@@ -52,14 +52,16 @@
                             <a class="nav-link" href="../"><span class="highlight-purple">#</span>home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/freelancer.html"><span class="highlight-purple">#</span>freelancer</a>
+                            <a class="nav-link" href="../pages/freelancer.html"><span
+                                    class="highlight-purple">#</span>freelancer</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../pages/projetos.html"><span
                                     class="highlight-purple">#</span>projetos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/sobre.html"><span class="highlight-purple">#</span>sobre</a>
+                            <a class="nav-link" href="../pages/sobre.html"><span
+                                    class="highlight-purple">#</span>sobre</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./contato.html"><span class="highlight-purple">#</span>contato</a>
@@ -73,7 +75,7 @@
         <!--Contato-->
         <section>
             <div class="d-flex align-items-center py-sm-5">
-                <h2 class="mr-2 contact__title"><span class="highlight-purple">/</span>contatos</h2>
+                <h2 class="mr-2 text-white"><span class="highlight-purple">/</span>contatos</h2>
             </div>
 
             <div class="row py-5">
@@ -81,52 +83,45 @@
                     <p class="contact__text">Estou buscando oportunidades de emprego em período integral. No entanto, se
                         você tiver outra oferta como freelance ou dúvida, não hesite em me contatar.
                     </p>
-                </div>    
+                </div>
                 <div class="col-sm-6">
                     <div class="d-flex">
-                        <div class="border rounded ml-auto">
-                            <div class="p-2 p-sm-4">
-                                <h5 class="card__title">Me mande uma mensagem aqui</h5>
-    
-                                <a class="btn d-flex align-items-center card__link"
-                                    href="https://www.linkedin.com/in/rogeriobuenos/" target="_blank"
-                                    rel="noopener noreferrer">
-                                    <img src="../assets/image/linkedin-ico.svg" alt="Icone da plataforma linkedin">
-                                    /rogeriobuenos
-                                </a>
-        
-                                <a class="btn d-flex align-items-center card__link"
-                                    href="mailto:rogeriobuenodasilva18@gmail.com" target="_blank" rel="noopener noreferrer">
-                                    <img src="../assets/image/email-ico.svg" alt="Icone de envelope de cartas">
-                                    rogeriobuenodasilva18@gmail.com
-                                </a>    
-                            </div>
+                        <div class="border rounded ml-sm-auto p-5">
+                            <h5 class="text-white">Me mande uma mensagem aqui</h5>
+                            <!-- Botão para acionar modal contato -->
+                            <button type="button" class="btn mt-3 d-flex align-items-center " data-toggle="modal"
+                                data-target="#ModalLongoExemplo">
+                                Fale comigo
+                                <span class="ml-1 material-symbols-outlined">
+                                    arrow_outward
+                                </span>
+                            </button>
                         </div>
                     </div>
                 </div>
-            </div>     
+            </div>
         </section>
         <!--Redes-->
         <section>
             <div class="d-flex align-items-center py-5">
-                <h2 class="mr-2 contact__title"><span class="highlight-purple">#</span>redes</h2>
+                <h2 class="mr-2 text-white"><span class="highlight-purple">#</span>redes</h2>
             </div>
-    
+
             <figure class="row mb-0">
                 <a class="btn d-flex align-items-center card__link" href="https://github.com/rogerio-bueno"
                     target="_blank" rel="noopener noreferrer">
                     <img class="mr-2" src="../assets/image/github.svg" alt="Icone do site github">
                     rogerio-bueno
                 </a>
-    
+
                 <a class="btn d-flex align-items-center card__link" href="https://www.linkedin.com/in/rogeriobuenos/"
                     target="_blank" rel="noopener noreferrer">
                     <img class="mr-2" src="../assets/image/linkedin-ico.svg" alt="Icone do site linkedin">
                     rogeriobuenos
                 </a>
-    
+
                 <a class="btn d-flex align-items-center card__link" href="https://www.instagram.com/roger.iodev/"
-                target="_blank" rel="noopener noreferrer">
+                    target="_blank" rel="noopener noreferrer">
                     <img class="mr-2" src="../assets/image/instagram.svg" alt="Icone do site instragram">
                     roger.iodev
                 </a>
@@ -161,5 +156,23 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 </body>
+<!-- Modal contato-->
+<div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="TituloModalLongoExemplo">Deixe uma mensagem</h5>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+            <div class="modal-body">
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLScNqhnqy-2NuZFfBUU9KCfBbYwS2AdFGM0BSptkKvvnbypcoA/viewform?embedded=true"
+                    class="container-fluid" height="932" frameborder="0" marginheight="0"
+                    marginwidth="0">Carregando…</iframe>
+            </div>
+        </div>
+    </div>
+</div>
 
 </html>
