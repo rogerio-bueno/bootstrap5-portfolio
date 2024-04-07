@@ -38,17 +38,4 @@
 
 .text-gray {
     color: var(--color-text-secondary);
-}
-
-.btn {
-    color: var(--color-text-secondary);
-    border: 1px solid var(--border-primary);
-    border-radius: 0;
-    font-weight: 500;
-    padding: 8px;
-}
-
-.btn:hover {
-    color: var(--color-text-primary);
-    background: rgba(199, 120, 221, 0.20);
-}
+}   
