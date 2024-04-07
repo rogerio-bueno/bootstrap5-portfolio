@@ -30,3 +30,12 @@ button.btn:hover {
     transform: scale(1.1);
 }
 
+.card__link {
+    color: var(--color-text-secondary);
+    font-weight: 400;
+}
+
+.card__link:hover {
+    transform: scale(1.1);
+    color: var(--color-text-primary );
+}
