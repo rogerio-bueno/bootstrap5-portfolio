@@ -13,7 +13,7 @@
     transition:all .3s;   
 }
 
-.btn:hover {
+button.btn:hover {
     color: black;
     transform: scale(1.1);
 }
